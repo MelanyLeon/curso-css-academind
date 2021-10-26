@@ -12,7 +12,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #2ddf5c;
+    background: #1864ae;
     padding: 8px 16px;
     }
     
@@ -22,7 +22,7 @@ body {
     }
     
     .main-header__brand {
-        color: #0e4f1f;
+        color: white;
         text-decoration: none;
         font-weight: bold;
         font-size: 22px
@@ -31,7 +31,7 @@ body {
     .main-nav {
         display: inline-block;
         text-align: right;
-        width: calc(100% - 74px);
+        width: calc(90% - 74px);
         vertical-align: middle;
     }
     
@@ -48,7 +48,7 @@ body {
     
     .main-nav__item a{
         text-decoration: none;
-        color: #0e4f1f;
+        color: #abddf3;
         font-weight: bold;
         padding: 3px 0;
     }
@@ -61,14 +61,14 @@ body {
     
     .main-nav__item--cta a {
         color: white;
-        background: #ff1b68;
+        background: #1864ae;
         padding: 8px 16px;
         border-radius: 8px;
     }
     
     .main-nav__item--cta a:hover,
     .main-nav__item--cta a:active {
-        color: #ff1b68;
+        color: #1864ae;
         background: white;
         border: none;
     }
@@ -103,10 +103,10 @@ body {
 
     
 .button {
-    background: #0e4f1f;
+    background: #1864ae;
     color: white;
     font: inherit;
-    border: 1.5px solid #0e4f1f;
+    border: 1.5px solid #1864ae;
     padding: 8px;
     border-radius: 8px;
     font-weight: bold;
@@ -116,7 +116,7 @@ body {
 .button:hover,
 .button:active {
     background: white;
-    color: #0e4f1f;
+    color: #1864ae;
 }
 
 .button:focus {

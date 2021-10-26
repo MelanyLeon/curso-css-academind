@@ -1,15 +1,15 @@
 
 #product-overview {
-    background: url("Freedom1.webp");
-    width:100%;
-    height: 528px;
-    padding: 10px;
+    background: url("OneDrive-1.jpg");
+    width: 100%;
+    height: 600px;
+    padding: 50px;
 
     
  }
 
  .section-title {
-    color: #2ddf5c;
+    color: #2773ba;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .plan {
-    background: #d5ffdc;
+    background: #37a6de;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -35,25 +35,25 @@
 }
 
 .plan--highlighted {
-    background: #19b84c;
+    background: #2c8ccc;
     color: white;
     box-shadow: 2px 2px 2px 2px rgb(0, 0 ,0.5);
 }
 
 .plan__annotation {
     background: white;
-    color: #19b84c;
+    color: #2c8ccc;
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgb(0, 0 ,0.5);
     border-radius: 8px;
 }
 
 .plan__title {
-    color: #0e4f1f;
+    color: #1864ae;
 }
 
 .plan__price {
-    color: #858585;
+    color: #141414;
 }
 
 .plan--highlighted .plan__title {
@@ -61,7 +61,7 @@
 }
 
 .plan--highlighted .plan__price {
-    color: #0e4f1f;
+    color: #103f66;
 }
 
 .plan__features {
@@ -75,7 +75,7 @@
 }
 
 #key-features {
-    background: #ff1b68;
+    background: #1864ae;
     margin-top: 80px;
     padding: 16px;
 }
@@ -99,10 +99,10 @@
 }
 
 .key-feature__image {
-    background: #ffcede;
+    background: #37a6de;
     width: 128px;
     height: 128px;
-    border: 2px solid #424242;
+    border: 2px solid #141414;
     border-radius: 50%;
     margin: auto;
 }
