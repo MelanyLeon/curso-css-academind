@@ -2,6 +2,14 @@ main {
     padding-top: 32px;
 }
 
+.background {
+    background: url("../images/OneDrive-1.jpg");
+    width: 2000px;
+    height: 1000px;
+    position: fixed;
+    z-index: -1;
+}
+
 .package {
     width: 80%;
     margin: 16px 0;
@@ -21,6 +29,18 @@ main {
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.package__badge {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1864ae;
+    background: white;
+    padding: 8px;
 }
 
 .package__subtitle {
