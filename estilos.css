@@ -1,9 +1,22 @@
 
 #product-overview {
-    background: url("OneDrive01.jpg");
+    background: linear-gradient(to top, rgba(80, 60, 18, 0.6) 10%, transparent),
+    url("images/OneDrive01.jpg") left 10% bottom 20%/cover no-repeat border-box,
+    #103f66;
+    /*background-image: url("OneDrive01.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 20%; */
+    /*background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
+    /*background-image: radial-gradient(180deg, red70%, blue 60%, rgba (0,0,0,0.5);*/
+    /*background-image: radial-gradient(elipse farthest-corner at 20% 50%, red, blue, green);*/
     width: 100%;
-    height: 600px;
-    padding: 50px;
+    height: 528px;
+    /*padding: 10px;*/
+    margin-top: 2.75rem;
+    /* border: 5px dashed #37a6de; */
+    position: relative;
 
     
  }
@@ -15,7 +28,10 @@
 
  #product-overview h1 {
      color: white;
-     font-family: sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
+     position: absolute;
+     bottom: 5%;
+     left: 3%;
 }
 
 .plan__list {
@@ -27,10 +43,10 @@
 .plan {
     background: #37a6de;
     text-align: center;
-    padding: 16px;
-    margin: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
     display: inline-block;
-    width: 29%;
+    width: 30%;
     vertical-align: middle;
 }
 
@@ -43,7 +59,7 @@
 .plan__annotation {
     background: white;
     color: #2c8ccc;
-    padding: 8px;
+    padding: 0.5rem;
     box-shadow: 2px 2px 2px 2px rgb(0, 0 ,0.5);
     border-radius: 8px;
 }
@@ -71,18 +87,18 @@
 }
 
 .plan__feature {
-    margin: 8px 0;
+    margin: 0.5rem 0;
 }
 
 #key-features {
     background: #1864ae;
-    margin-top: 80px;
-    padding: 16px;
+    margin-top: 5rem;
+    padding: 1rem;
 }
 
 #key-features .section-title {
     color: white;
-    margin: 32px;
+    margin: 2rem;
 }
 
 .key-feature__list {
@@ -105,13 +121,14 @@
     border: 2px solid #141414;
     border-radius: 50%;
     margin: auto;
+    padding: 1.5rem;
 }
 
 .key-feature__description {
     text-align: center;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
  /*h1{
