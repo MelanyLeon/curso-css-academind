@@ -14,8 +14,20 @@
     <link rel="stylesheet" href="estilos.css"></head>
 <body>
 <div class="backdrop"></div>
+<div class="modal">
+    <h1 class="modal__title">Desea continuar?</h1>
+    <div class="modal__actions">
+        <a href="start-hosting/index.html" class="modal__action">Si!</a>
+        <button class="modal__action modal__action--negative" type="button">No!</button>
+    </div>
+</div>
  <header class="main-header">
      <div>
+         <button class="toggle-button">
+             <span class="toggle-button__bar"></span>
+             <span class="toggle-button__bar"></span>
+             <span class="toggle-button__bar"></span>
+         </button>
          <a href="index.html" class="main-header__brand">
              <img src="images/IconoOneDrive.jpg" alt="OneDrive - El punto de encuentro de todo lo que rodea tu vida.">
          </a>
@@ -98,6 +110,9 @@
                 </svg>
             </div>
             <p class="key-feature__description">Fácil acceso desde cualquier lugar</p>
+            <a href="index.html" class="icon_one">
+                <img src="images/" alt="">
+            </a>
         </li>
         <li class="key-feature">
             <div class="key-feature__image">
@@ -105,6 +120,9 @@
                 </svg>
             </div>
             <p class="key-feature__description">Mayor seguridad</p>
+            <a href="index.html" class="icon_two">
+                <img src="" alt="">
+            </a>        
         </li>
         <li class="key-feature">
             <div class="key-feature__image">
@@ -112,6 +130,9 @@
                 </svg>
             </div>
             <p class="key-feature__description">Mayor control de documentos</p>
+            <a href="index.html" class="icon_tree">
+                <img src="" alt="">
+            </a>        
         </li>
     </ul>
 </section>
@@ -128,6 +149,7 @@
            </ul> 
         </nav>
     </footer>
+    <script src="shared.js"></script>
  
 </body>
 </html>
