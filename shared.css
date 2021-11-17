@@ -23,7 +23,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #023368;
+    background: #b98368;
     padding: 0.5rem 1rem;
     z-index: 1;
     }
@@ -59,8 +59,8 @@ body {
         color: white;
         text-decoration: none;
         font-weight: bold;
-        font-size: 1.5rem;
-        height: 1.5rem;
+        font-size: 2rem;
+        height: 2rem;
         /*width: 20px;*/
         display: inline-block;
         vertical-align: middle;
@@ -93,7 +93,7 @@ body {
     .main-nav__item a,
     .mobile-nav__item a{
         text-decoration: none;
-        color: #abddf3;
+        color: #f0d4bc;
         font-weight: bold;
         padding: 0.2rem 0;
     }
@@ -106,8 +106,8 @@ body {
     
     .main-nav__item--cta a,
     .mobile-nav__item--cta a {
-        color: white;
-        background: #1864ae;
+        color: #b98368;
+        background: #f0d4bc;
         padding: 0.5rem 1rem;
         border-radius: 8px;
     }
@@ -116,7 +116,7 @@ body {
     .main-nav__item--cta a:active,
     .mobile-nav__item--cta a:hover,
     .mobile-nav__item--cta a:active {
-        color: #1864ae;
+        color: #f0d4bc;
         background: white;
         border: none;
     }
@@ -178,10 +178,10 @@ body {
     }
     
 .button {
-    background: #1864ae;
-    color: white;
+    background: #f0d4bc;
+    color: #b98368;
     font: inherit;
-    border: 1.5px solid #1864ae;
+    border: 1.5px solid #55392b;
     padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -191,7 +191,7 @@ body {
 .button:hover,
 .button:active {
     background: white;
-    color: #1864ae;
+    color: #b98368;
 }
 
 .button:focus {
