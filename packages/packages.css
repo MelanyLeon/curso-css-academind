@@ -62,14 +62,14 @@ main {
 }
 
 #plus {
-    background: rgba(255, 249, 227, 0.95);
+    background: rgba(253, 252, 245, 0.95);
 }
 
 #free {
-    background: rgb(255, 249, 227);
+    background: rgb(255, 252, 242);
     float: right;
     border-right: none;
-    border-left: 4px solid #b98363;
+    border-left: 4px solid #8fa3a6;
     text-align: right;
 }
 
@@ -79,7 +79,7 @@ main {
 }
 
 #premium {
-    background: rgba(240, 202, 121, 0.95);
+    background: rgba(87, 86, 86, 0.95);
 }
 
 #premium .package__title {
