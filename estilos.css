@@ -57,6 +57,7 @@
     box-shadow: 0 5px 10px rgba(0 0 0 /.1);
     border-radius: 1rem;
     max-width: 20rem;
+    justify-content: space-between;
     /*width: 90%;
     height: 25rem;
     padding: 1rem;
